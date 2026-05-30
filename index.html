@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>TikTok Auth — El Camino del Guerrero</title>
+</head>
+<body style="font-family:monospace;background:#0d0d0d;color:#f2ede4;padding:40px;margin:0">
+  <h2 style="color:#e8520a">TikTok Authorization</h2>
+  <div id="result"></div>
+  <script>
+    const p     = new URLSearchParams(location.search);
+    const code  = p.get('code');
+    const error = p.get('error');
+    if (code) {
+      document.getElementById('result').innerHTML =
+        '<p>✓ Copiá este código y pegalo en la terminal:</p>' +
+        '<p style="background:#1a1a1a;padding:20px;font-size:18px;word-break:break-all;border-left:3px solid #e8520a">' + code + '</p>';
+    } else if (error) {
+      document.getElementById('result').innerHTML =
+        '<p style="color:#ff4444">❌ Error: ' + error + '</p>';
+    } else {
+      document.getElementById('result').innerHTML =
+        '<p style="color:#a89f96">Esperando autorización de TikTok...</p>';
+    }
+  </script>
+</body>
+</html>
