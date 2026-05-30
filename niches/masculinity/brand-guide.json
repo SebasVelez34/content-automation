@@ -1,0 +1,167 @@
+{
+  "nicheId": "masculinity",
+  "brandName": "El Camino del Guerrero",
+  "tagline": "Sistema. No motivación.",
+  "handle": "@elcaminodel.guerrero",
+  "version": "1.0",
+  "figmaFileUrl": "https://www.figma.com/design/44H6MbRi8b8eQhONmBuWj3/El-Camino-del-Guerrero-%E2%80%94-Templates-Instagram",
+  "updatedAt": "2026-05-28",
+
+  "palette": {
+    "backgrounds": {
+      "primary":   "#0D0D0D",
+      "secondary": "#1A1A1A",
+      "variant1":  "#0A0A0A",
+      "variant2":  "#141414"
+    },
+    "accent": {
+      "primary":   "#E8520A",
+      "secondary": "#C44A09"
+    },
+    "text": {
+      "primary":   "#F2EDE4",
+      "secondary": "#A89F96"
+    },
+    "usageRule": "80% fondos oscuros · 15% naranja (#E8520A) · 5% blanco roto (#F2EDE4). Nunca colores fuera de esta paleta."
+  },
+
+  "typography": {
+    "display": {
+      "family": "Oswald",
+      "googleFontsId": "Oswald",
+      "weight": 700,
+      "casing": "SIEMPRE MAYÚSCULAS",
+      "trackingRange": "0 a -2%",
+      "lineHeight": "100-115%",
+      "sizes": {
+        "hookH1":     78,
+        "subtitleH2": 48,
+        "accentH3":   34
+      }
+    },
+    "body": {
+      "family": "Inter",
+      "googleFontsId": "Inter",
+      "weights": [400, 500, 700],
+      "casing": "Oración normal (no caps)",
+      "tracking": 0,
+      "lineHeight": "140-160%",
+      "sizes": {
+        "body":     34,
+        "emphasis": 28,
+        "cta":      24,
+        "caption":  20
+      }
+    },
+    "forbidden": ["scripts", "cursivas decorativas", "Helvetica", "Arial", "fuentes de Canva"]
+  },
+
+  "voice": {
+    "pillars": [
+      {
+        "name": "BRUTAL HONESTIDAD",
+        "icon": "⚔",
+        "description": "Dice lo que el avatar piensa pero no admite. Sin suavizar. Sin filtros. La verdad que incomoda es la que conecta."
+      },
+      {
+        "name": "SOLIDEZ INTERNA",
+        "icon": "🧱",
+        "description": "No prometemos sentirse bien. Prometemos coherencia. Ser el hombre que uno ya sabe que puede ser."
+      },
+      {
+        "name": "SISTEMA PRÁCTICO",
+        "icon": "⚙",
+        "description": "Todo lo que publicamos es ejecutable. Nada de motivación vacía. Cada pieza de contenido entrega algo accionable."
+      },
+      {
+        "name": "VULNERABILIDAD AUTÉNTICA",
+        "icon": "🔥",
+        "description": "No somos el gurú perfecto. Somos el que también pasó por el ciclo y construyó el sistema para romperlo."
+      }
+    ],
+    "examples": {
+      "correct": [
+        "Sabés exactamente lo que tenés que hacer. El problema es que no lo hacés.",
+        "No es motivación. Es un sistema que funciona aunque no tengas ganas.",
+        "Rompé el ciclo. Construí al hombre que sabés que podés ser.",
+        "Sin estructura, el potencial se convierte en culpa."
+      ],
+      "forbidden": [
+        "¡Tú puedes lograrlo! Cree en ti mismo.",
+        "En 30 días transformarás tu vida por completo.",
+        "Únete a nuestra comunidad de guerreros exitosos.",
+        "El secreto que nadie te contó para ser productivo."
+      ]
+    },
+    "positioning": "No prometamos sentirte bien. Prometemos coherencia interna. Sistema. No motivación."
+  },
+
+  "reelsGuide": {
+    "durationTargetSec": 30,
+    "structure": [
+      { "timeRange": "0-1s",   "role": "hook",        "description": "Primera frase en pantalla. Oswald Bold, máx 6 palabras." },
+      { "timeRange": "1-5s",   "role": "tension",     "description": "Desarrollo visual — agrava el problema." },
+      { "timeRange": "5-12s",  "role": "insight",     "description": "Insight / sistema — la razón real." },
+      { "timeRange": "12-15s", "role": "cta",         "description": "CTA — una sola acción, sin fricción." }
+    ],
+    "hookRule": "Primera frase en pantalla primeros 0.5s. Oswald Bold, máx 6 palabras, blanco (#F2EDE4) sobre negro (#0D0D0D).",
+    "music": "Sin letra. Instrumental oscuro/épico/minimalista. Nunca reggaeton ni pop.",
+    "subtitles": "Siempre activados. Inter Bold, máx 2 líneas. Fondo semi-transparente negro."
+  },
+
+  "graphicElements": {
+    "backgrounds": {
+      "rule": "Siempre fondos oscuros. NUNCA degradados, gradientes, o texturas decorativas.",
+      "allowed": ["#0D0D0D", "#1A1A1A", "#0A0A0A", "#141414"],
+      "fallback": "#0D0D0D"
+    },
+    "accentLines": {
+      "divider":   "2px",
+      "main":      "3px",
+      "section":   "4px corta"
+    },
+    "spacing": {
+      "lateralMargin":   "90px",
+      "internalPadding": "20-24px",
+      "elementGap":      "16-20px",
+      "sectionGap":      "40-60px",
+      "borderRadius":    "12px cards · 8px boxes"
+    },
+    "symbolsAllowed": ["—", "·", "→", "↓", "↑", "⚔", "⚙", "✓", "▸"],
+    "emojiForbidden":  ["💪", "🔥", "✨", "🎯", "🚀", "💯", "todos los emojis de coach motivacional"]
+  },
+
+  "imageAesthetic": {
+    "primaryMood": "oscuro dramático cinematográfico masculino",
+    "lighting": "alto contraste oscuro chiaroscuro contraluz silueta",
+    "colorGrade": "oscuro desaturado con posibles highlights naranja cálido (#E8520A) o azul frío",
+    "preferredSubjects": [
+      "figuras solitarias en paisajes vastos — montañas, desiertos, océanos",
+      "elementos naturales crudos — fuego, agua oscura, piedra, bosques en niebla",
+      "objetos simbólicos — espadas, cadenas, llaves, senderos antiguos, brasas",
+      "arquitectura en soledad — corredores vacíos, puentes oscuros, escaleras de piedra",
+      "fuerzas naturales — olas imponentes, niebla densa, nubes de tormenta, brasas"
+    ],
+    "forbiddenElements": [
+      "colores brillantes o alegres",
+      "personas mirando directamente a la cámara o sonriendo",
+      "entornos de oficina, tecnología moderna, laptops",
+      "tonos rosas, pasteles o blancos predominantes",
+      "celebraciones grupales o entornos festivos",
+      "texto o marcas de agua dentro de la imagen",
+      "caras generadas por IA (nunca person generation)",
+      "gradientes de color o texturas decorativas"
+    ],
+    "imageStyleKeywords": "dark dramatic cinematic masculine solitude strength portrait vertical 9:16",
+    "overlayOpacityHook":  0.42,
+    "overlayOpacityScene": 0.55
+  },
+
+  "videoAesthetic": {
+    "motionStyle": "slow cinematic deliberate",
+    "cameraMovement": "slow push-in, pull-back, or lateral pan",
+    "clipDurationSec": "3-6 seconds",
+    "colorGrade": "dark desaturated possible warm orange highlights",
+    "forbiddenMotion": ["fast cuts", "shaky cam", "bright flash transitions", "upbeat energetic motion"]
+  }
+}

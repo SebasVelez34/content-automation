@@ -1,0 +1,37 @@
+# Dependencies
+node_modules/
+dist/
+
+# Environment — NUNCA subir al repo
+.env
+.env.local
+.env.*.local
+
+# Pipeline output — archivos generados localmente
+content-pipeline/
+approval-queue/
+published/
+
+# Media generada
+*.mp4
+*.mp3
+*.wav
+*.png
+*.jpg
+*.jpeg
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/settings.json
+.idea/
+
+# TypeScript build
+*.js.map
+tsconfig.tsbuildinfo

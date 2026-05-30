@@ -1,0 +1,54 @@
+{
+  "nicheId": "masculinity",
+  "name": "Dirección Masculina",
+  "language": "es",
+  "platforms": ["tiktok", "instagram", "youtube", "facebook"],
+  "publishSchedule": {
+    "days": ["monday", "wednesday", "friday"],
+    "publishTime": "12:00",
+    "timezone": "America/Bogota"
+  },
+  "research": {
+    "reddit": {
+      "subreddits": ["selfimprovement", "TheRedPill", "decidingtobebetter", "getdisciplined", "Stoicism"],
+      "minUpvotes": 200,
+      "postsPerSubreddit": 5
+    },
+    "youtube": {
+      "searchTerms": [
+        "hombres sin propósito",
+        "dirección masculina",
+        "propósito de vida hombre",
+        "masculinidad auténtica",
+        "hombre de 30 años sin rumbo",
+        "arquetipos masculinos",
+        "estoicismo hombres",
+        "masculinity purpose",
+        "men without direction"
+      ],
+      "maxResults": 10,
+      "publishedAfterDays": 7
+    },
+    "trends": {
+      "keywords": [
+        "masculinidad",
+        "propósito de vida",
+        "hombre moderno",
+        "dirección masculina",
+        "arquetipos"
+      ],
+      "geo": "CO"
+    }
+  },
+  "voice": {
+    "tone": "directivo, filosófico, íntimo",
+    "style": "frases cortas y poderosas, metáforas simples, verdades incómodas con solución",
+    "forbidden": ["motivación vacía", "frases de auto-ayuda genérica", "promesas exageradas"]
+  },
+  "notion": {
+    "kbDbId": "",
+    "pillarsDbId": "",
+    "ideasDbId": "",
+    "analyticsDbId": ""
+  }
+}

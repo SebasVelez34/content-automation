@@ -1,0 +1,36 @@
+{
+  "name": "content-automation",
+  "version": "1.0.0",
+  "description": "Pipeline automatizado de creación y publicación de contenido orquestado por Claude",
+  "type": "module",
+  "scripts": {
+    "research": "npx tsx scripts/research.ts",
+    "create": "npx tsx scripts/content-creator.ts",
+    "validate": "npx tsx scripts/validate-vision.ts",
+    "approve": "npx tsx scripts/approval-server.ts",
+    "publish": "npx tsx scripts/publish.ts",
+    "monitor": "npx tsx scripts/monitor.ts",
+    "pipeline": "npx tsx scripts/pipeline.ts"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.52.0",
+    "@google/genai": "^2.6.0",
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "axios": "^1.9.0",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "googleapis": "^148.0.0",
+    "open": "^10.1.2",
+    "snoowrap": "^1.23.0",
+    "uuid": "^11.1.0",
+    "zod": "^3.25.36"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.3",
+    "@types/node": "^22.15.29",
+    "@types/snoowrap": "^1.19.0",
+    "@types/uuid": "^10.0.0",
+    "tsx": "^4.19.4",
+    "typescript": "^5.8.3"
+  }
+}
