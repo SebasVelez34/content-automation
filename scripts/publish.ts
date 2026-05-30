@@ -196,7 +196,10 @@ async function publishToTikTok(videoPath: string, videoProps: VideoProps): Promi
       error?: { code: string; message: string };
     };
 
-    if (!initData.data) throw new Error(initData.error?.message ?? "TikTok init failed");
+    if (!initData.data) {
+      log("Publisher", `TikTok respuesta completa: ${JSON.stringify(initData)}`);
+      throw new Error(initData.error?.message ?? "TikTok init failed");
+    }
 
     // Paso 2: Upload del video
     const videoBuffer = fs.readFileSync(videoPath);

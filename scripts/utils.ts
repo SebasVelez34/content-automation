@@ -40,7 +40,8 @@ export function writeJson(filePath: string, data: unknown): void {
 }
 
 export function readJson<T>(filePath: string): T {
-  return JSON.parse(fs.readFileSync(filePath, "utf-8")) as T;
+  const raw = fs.readFileSync(filePath, "utf-8").replace(/^﻿/, "");
+  return JSON.parse(raw) as T;
 }
 
 export function log(agent: string, message: string): void {
